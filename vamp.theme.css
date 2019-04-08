@@ -1,0 +1,139 @@
+//META{"name":"Vamp","version":"1.0","author":"Xeno","description":"Red color theme."}*//{Xeno}
+/* "ClearVision - Sapphire v5" by @Zerthox */
+/* Based on "Discord Reborn v4.30" by @Omniscient & "DarkMatter" by @Hammock */
+
+/* IMPORT CSS FROM GITHUB */
+@import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: CHANGE BETWEEN DARK AND LIGHT VERSION IN APPEARANCE SETTINGS!
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+================ IMPORTANT LINKS =================
+Github: https://git.io/v6BHO
+Discord: https://git.io/vMnlu
+Wiki: https://git.io/vXTqM
+Latest version: https://git.io/v6Muk
+Changelog: https://git.io/v6r5N
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+============== CUSTOMIZABLE COLORS ===============
+*/
+:root {
+    --main-color: #ba110c;
+    --hover-color: #ba110c85;
+    --background-blur: 0px;
+    --background-brightness: 100%;
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+========= CUSTOMIZABLE BACKGROUND IMAGE ==========
+*/
+body::after,
+.callout-backdrop,
+.userPopout-11hFKo::before,
+.userPopout-3XzG_A::before,
+.root-SR8cQa::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label {
+    background-image: url(https://cdn.discordapp.com/attachments/490677154078523392/562899898677067796/vampzoomed.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+}
+.typeWindows-1za-n7 {
+    margin: 0;
+    padding-top: 4px;
+    background-color: #202225;
+}
+.theme-dark .friends-table, .theme-dark .messages-wrapper, .theme-dark .chat, .channels-Ie2l6A, .theme-dark .guildsWrapper-5TJh6A, .container-2lgZY8, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, 
+.theme-dark .typing-2GQL18, .theme-dark .members-1998pB, .theme-dark .chat>.content, .theme-dark .title-3qD0b-, .container-PNkimc, .channels-Ie2l6A, #app-mount, .theme-dark .chat form, .container-2Thooq, 
+.theme-dark .headerBar-UHpsPw, .theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark 
+.messages-wrapper .messages  .divider span, .theme-dark #friends, .theme-dark .activityFeed-28jde9, .theme-dark .header-1RC2Wb, .theme-dark .content-yTz4x3, .chat-3bRxxu.da-chat, .theme-dark .messagesWrapper-3lZDfY,
+.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .divider-3gKybi:before, .theme-dark .divider-3gKybi span
+{
+    background:rgba(0,0,0,0.05) !important;
+}
+.theme-dark .description-3_Ncsb, .theme-dark .labelDescriptor-1PqHgD {
+    color: #fff999!important;
+}
+.theme-dark .nowPlayingAdd-1Kdmh_, .theme-light .nowPlayingAdd-1Kdmh_ {
+    color: #fff999!important;
+}
+.theme-dark .colorStandard-2KCXvj {
+    color: #fff999!important;
+}
+.ui-form-text, .ui-radiogroup .desc, .ui-select .Select-value-label, .ui-form-item [class*="Text"] {
+    color: #fff999!important;
+}
+.theme-dark .markup-2BOw-j a { /* links */
+    color: pink;
+    text-decoration: underline;
+}
+.theme-dark .embedTitleLink-1Zla9e { /* embedded links */
+    color: pink!important;
+}
+.mention, [class*="theme-"] .isMentioned-N-h9aa .mention {
+    color: red !important;
+}
+.contentSelectedText-3wUhMi, .channel-2QD9_O.selected-1HYmZZ a, .side-8zPYf6 .itemSelected-1qLhcL { /* Current Channel/Person */
+    background-color: #ba110c85 !important;
+}
+[class*="theme-"] .member-3W1lQa.popout-open .content-OzHfo4 {
+    background-color: #ba110c85 !important;
+}
+.theme-dark .h5-18_1nd {
+    color: #fff;
+}
+.userSettingsVoice-iwdUCU .sliderBar-3DezvM.speaking-2bFhO4 {
+    background-color: #fff;
+}
+.accountDetails-3k9g4n::after {
+    display: none;
+}
+[class*="theme-"] .membersGroup-v9BXpm {
+    color: #fff;
+}
+.activity-1IYsbk strong {
+    color: #fff;
+}
+.theme-dark .header-2RyJ0Y {
+    color: #fff;
+}
+.isMentionedCozy-3isp7y .mention:hover, span.wrapperHover-1GktnT.wrapper-3WhCwL:hover { /* Mention hover */
+    background-color: #00000090 !important;
+}
+.markup-2BOw-j, .da-markup {
+    color: blue;
+}
+.theme-dark .timestampCozy-2hLAPV {
+    color: #fff199;
+}
+.botTagRegular-2HEhHi {
+    background: #00000085;  
+    color: #ba110c;
+}
+.large-3ChYtB:hover { /* profile pics in chat */
+    opacity: 1;
+}
+.discriminator { /* #7711 Tag */
+    padding: 0px;
+    margin-left: 0px!important;
+}
+.anchor-3Z-8Bb {
+    color: #ba110c;
+    text-decoration: none;
+}
+
+
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
